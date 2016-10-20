@@ -43,7 +43,7 @@
   }"
   placeholder="选择时间">
 </el-time-select>
-
+<commit-chart></commit-chart>
   </div>
 </template>
 
@@ -53,6 +53,7 @@ import ElementSelect from './components/ElementSelect'
 import ElementTable from './components/ElementTable'
 import ElementLayout from './components/ElementLayout'
 import ElementDatepicker from './components/ElementDatepicker'
+import CommitChart from './components/CommitChart.js'
 export default {
   name: 'app',
   components: {
@@ -60,7 +61,8 @@ export default {
     ElementSelect,
     ElementTable,
     ElementLayout,
-    ElementDatepicker
+    ElementDatepicker,
+    CommitChart
   }
 }
 </script>
