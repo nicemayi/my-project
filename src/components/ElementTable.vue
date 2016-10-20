@@ -29,7 +29,7 @@
 
 <script>
   export default {
-    data () {
+    data() {
       return {
         tableData3: [{
           date: '2016-05-03',
